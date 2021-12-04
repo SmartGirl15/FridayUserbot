@@ -43,7 +43,7 @@ class Config((object)):
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
     STRINGSESSION = os.environ.get("STRINGSESSION", None)
     ASSISTANT_START_PIC = os.environ.get(
-        "ASSISTANT_START_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
+        "ASSISTANT_START_PIC", "https://telegra.ph/file/696a9f39f4245ae5a4fa6.jpg"
     )
     STRINGSESSION_2 = os.environ.get("STRINGSESSION_2", None)
     STRINGSESSION_3 = os.environ.get("STRINGSESSION_3", None)
@@ -62,10 +62,10 @@ class Config((object)):
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     FBAN_GROUP = int(os.environ.get("FBAN_GROUP", False))
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/DevsExpo/FridayUserbot"
+        "UPSTREAM_REPO", "https://github.com/SmartGirl15/FridayUserbot"
     )
     ALIVE_IMG = os.environ.get(
-        "ALIVE_IMG", "https://telegra.ph//file/7ad807cd9d562ae4f85d8.jpg"
+        "ALIVE_IMG", "https://telegra.ph/file/7ad344da468944db1fdff.jpg"
     )
     U_BRANCH = "master"
     HEROKU_URL = fetch_heroku_git_url(HEROKU_API_KEY, HEROKU_APP_NAME)
